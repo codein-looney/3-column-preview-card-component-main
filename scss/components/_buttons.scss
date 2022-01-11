@@ -1,0 +1,53 @@
+.btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--Very-light-gray);
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.btn1 {
+    color: var(--Bright-orange);
+    transition: 0.3s;
+
+    &:hover {
+        font-size: 1rem;
+    }
+}
+
+.btn2 {
+    color: var(--Dark-cyan);
+    transition: 0.3s;
+
+
+    &:hover {
+        font-size: 1rem;
+    }
+}
+
+.btn3 {
+    color: var(--Very-dark-cyan);
+    transition: 0.3s;
+
+    
+    &:hover {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .btn {
+        margin-bottom: 2.5rem;;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+    .attribution {
+        position: absolute;
+        top: 240%;
+        right: 34%;
+    }
+}
+
