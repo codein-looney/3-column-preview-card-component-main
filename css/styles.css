@@ -47,13 +47,6 @@ body {
     margin-bottom: 2.5rem;
   }
 }
-@media only screen and (max-width: 960px) {
-  .attribution {
-    position: absolute;
-    top: 240%;
-    right: 34%;
-  }
-}
 .container {
   width: 1050px;
   height: 100%;
